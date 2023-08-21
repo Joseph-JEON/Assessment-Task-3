@@ -1,4 +1,4 @@
-body {
+  body {
     font-family: Arial, sans-serif; background-color: beige;
   }
   #task {
@@ -6,6 +6,8 @@ body {
     font-weight: bold;
     color:green; 
   }
+
+  /* Task 1 : Use CSS to display the following information */
   .header {
     margin-bottom: 20px;
     color: darkblue;
@@ -25,6 +27,8 @@ body {
     padding-bottom: 20px;
     border-bottom: 1px dotted blue;
   }
+
+  /*Task 2 Use CSS to style a table */
   .table1 {
     width: 70%;
     border-collapse: collapse;
@@ -42,16 +46,17 @@ body {
     color: yellow;
   }
   .table1 tr:nth-child(even) {
-    background-color: rgb(248, 211, 217);
+    background-color: rgb(247, 239, 241);
   }
   .table1 tr:nth-child(odd) {
-    background-color: rgb(210, 236, 245);
+    background-color: rgb(228, 243, 248);
   }
   .table1 .bullet-list {
     list-style-type:square ;
     margin-left: 2px;
   }
  
+  /*Task 3 HTML & CSS */
   .table2 {
     border-collapse: separate;
     border-spacing: 2px ;
@@ -83,6 +88,7 @@ body {
     font-size: 12px;
   }
 
+  /*Task 4 Javascript with button */
   .btn {
     font-size: 20x;
     padding: 10px 20px;
@@ -136,6 +142,8 @@ body {
     word-wrap: break-word;
     max-width: 600px;
   }
+
+  /*Task 5 Gihub repository */
   .report-link {
     font-size: 20px; 
     text-decoration: none; 
